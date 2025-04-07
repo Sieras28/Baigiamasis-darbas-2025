@@ -1,16 +1,10 @@
 package dto;
 
-import lombok.Builder;
-import lombok.Data;
+  import lombok.Data;
 
-public class SamatosRequest {
     @Data
-    @Builder
-    public class SamatosDalisDto {
-        private String kategorija;
-        private String medziaga;
-        private String tiekejas;
-        private double vienetoKaina;
-        private double bendraKaina;
+    public class SamatosRequest {
+        private String medziagosTipas;
+        private double kiekis;
     }
-}
+
